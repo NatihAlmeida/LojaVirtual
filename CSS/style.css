@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: rgb(184, 169, 147);
+    margin: 0 0 40px 0;
+}
+.logo{
+    color: rgba(220, 223, 224, 0.89);
+    font-size: 14px;
+    margin: 5px 0;
+}
+.menu{
+    display: flex;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    margin: 0 5px;
+    color: white;
+    font-size: 12px;
+}
+li a:hover{
+    background-color: rgb(216, 186, 108);
+    padding: 5px;
+}
+.banner-menu{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+.banner-menu span, p{
+    font-size: 14px;
+    color: rgb(130, 114, 133);
+}
+.banner-menu img{
+    width:150px;
+    height:150px
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(184, 169, 147);
+    color: rgba(220, 223, 224, 0.89);
+    font-size: 12px;
+    text-align: center;
+    bottom: 0;
+}
+.produto img{
+    width: 300px;
+    height: 300px;
+}
+.produto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+}
+.produto p{
+    font-size: 10px;
+}
+
